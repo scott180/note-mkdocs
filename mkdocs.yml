@@ -1,11 +1,10 @@
-site_name: note
+site_name: 笔记mkdocs
 
 theme:
   name: spacelab
   
 nav: 
-  - 我的笔记:
-    - note: 我的笔记/note.md
+  - 我的笔记: 我的笔记/note.md
   - 书法练习:
     - 书法练习轨迹ReadMe: 书法练习/书法练习轨迹ReadMe.md
     - 书法练习轨迹--明月几时有: 书法练习/书法练习轨迹--明月几时有.md
