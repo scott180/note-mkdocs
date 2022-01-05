@@ -110,8 +110,24 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#note" class="nav-link">note</a>
+            <li class="nav-item" data-level="1"><a href="#note" class="nav-link">note</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#1" class="nav-link">1、日常</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2" class="nav-link">2、工作</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#3java" class="nav-link">3、java</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#4git" class="nav-link">4、git仓库</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -119,17 +135,58 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="note"><a href="https://gitlab.com/xuyq123/mynotes/-/blob/master/note.md">note</a></h2>
+<h1 id="note"><a href="https://gitlab.com/xuyq123/mynotes/-/blob/master/note.md">note</a></h1>
 <ul>
 <li><a href="#note">1、日常</a></li>
 <li><a href="#wrok">2、工作</a></li>
 <li><a href="#java">3、java</a></li>
-<li><a href="#git">4、git仓库项目</a></li>
+<li>
+<p><a href="#gitId">4、git仓库</a></p>
+</li>
+<li>
+<p>[ ] <code>仓库</code> &ensp; <a href="https://gitlab.com/xuyq123/mynotes">gitlab</a> &ensp; <a href="https://gitee.com/xy180/MyNotes">gitee</a> &ensp; <a href="https://github.com/scott180/MyNotes">github</a> &ensp; <a href="https://codechina.csdn.net/xu180/MyNotes">csdn_code</a>  &ensp; <a href="https://xyqin.coding.net/public/my/MyNotes/git/files">coding</a> &ensp; <a href="https://bitbucket.org/xu12345/mynotes">bitbucket</a></p>
+</li>
 </ul>
 <h2 id="note"></h2>
 
-<h3 id="1">1、日常</h3>
-<h4 id="11">1.1、修改文件的默认打开方式</h4>
+<h2 id="1">1、日常</h2>
+<h3 id="11">1.1、文件相关操作</h3>
+<h4 id="111windows">1.1.1、windows常用快捷键</h4>
+<pre><code class="language-java">windows常用快捷键
+
+Ctrl+C  复制选中内容
+Ctrl+V  粘贴复制内容
+Ctrl+S  保存
+Ctrl+A  选中全部内容
+Ctrl+X  剪切
+Ctrl+F  查找与替换
+
+Ctrl+W  关闭程序
+Ctrl+Z  撤销刚才进行的操作
+Ctrl+Y  恢复刚才进行的操作
+Ctrl+N  新建一个空白文档
+Ctrl+P  打开&quot;打印&quot;对话框
+Ctrl+O  打开文档
+
+Ctrl+Shift  输入法切换
+Ctrl+Home   光标快速移到文件头
+Ctrl+End    光标快速移到文件尾
+Alt+Tab     程序切换
+
+Win     显示开始菜单
+Win+L   锁定计算机
+Win+E   启动&quot;我的电脑&quot;
+Win+D   快速显示桌面
+Win+R   打开电脑&quot;运行&quot;对话框
+
+F2   文件夹改名
+F5   浏览器页面刷新
+F11  浏览器进入全屏状态
+F12  浏览器打开调试
+
+
+</code></pre>
+<h4 id="112">1.1.2、修改文件的默认打开方式</h4>
 <pre><code>修改文件的默认打开方式：
 
 1.修改属性
@@ -147,64 +204,82 @@
 控制面板-----程序----默认程序----始终使用指定的程序打开此文件类型
 
 </code></pre>
-<pre><code>无扩展名文件默认打开程序设置Notepad++
+<h4 id="113notepadd">1.1.3、notepadd++小知识</h4>
+<pre><code class="language-java">无扩展名文件默认打开程序设置Notepad++
 
 在命令提示符cmd以管理员身份下输入
 assoc .=&quot;No Extension&quot;
 ftype &quot;No Extension&quot;=&quot;D:\ProgramFiles\Notepadd++\Notepad++\notepad++.exe&quot; &quot;%1&quot;
 
 </code></pre>
-<pre><code class="language-java">notepad++常用插件：Compare、JSTool、Json Viewer、MIME Tools
+<pre><code>notepad++常用插件：Compare、JSTool、Json Viewer、MIME Tools
 将dll文件放在如下目录，重启notepad即可
 D:\ProgramFiles\Notepadd++\Notepad++\plugins
 
-
-notepadd++ 文字高亮
+</code></pre>
+<pre><code>notepadd++  txt,md格式 文字高亮
 设置 - 语言格式设置 - 自定义扩展名
 
 </code></pre>
-<h4 id="12windows">1.2、windows常用快捷键</h4>
-<pre><code>
-windows常用快捷键
-
-Ctrl+C 复制选中内容
-Ctrl+V 粘贴复制内容
-Ctrl+S 保存
-Ctrl+A 选中全部内容
-Ctrl+X 剪切
-Ctrl+F 查找与替换
-
-Ctrl+W 关闭程序
-Ctrl+Z 撤消刚才进行的操作
-Ctrl+Y 恢复刚才进行的操作
-
-Ctrl+N 新建一个空白文档
-Ctrl+P 打开&quot;打印&quot;对话框
-Ctrl+O 打开文档
-Ctrl+Home  光标快速移到文件头
-Ctrl+End   光标快速移到文件尾
-Ctrl+Shift 输入法切换
-
-Alt+Tab    程序切换
-
-Win     显示开始菜单
-Win+L   锁定计算机
-Win+E   启动&quot;我的电脑&quot;
-Win+D   快速显示桌面
-Win+R   打开电脑&quot;运行&quot;对话框
-
-F2  文件夹改名
-F5  浏览器页面刷新
-F11 浏览器进入全屏状态
-F12 浏览器打开调试
-
-
-notepad竖向选择
+<pre><code>notepad竖向选择
 先把鼠标光标放在起始位置，然后同时按Alt+shift键或者只按Alt键就可以，然后移动鼠标选取内容。
 
 </code></pre>
-<h4 id="13">1.3、网络&amp;笔记本</h4>
-<h5 id="131">1.3.1、远程登录</h5>
+<h4 id="114markdown">1.1.4、markdown</h4>
+<pre><code class="language-java">markdown在线编辑
+作业部落  https://www.zybuluo.com/mdeditor
+马克飞象  https://maxiang.io/
+菜鸟工具  http://c.runoob.com/front-end/712
+Marked    https://marked.js.org/demo/
+gitlab    https://gitlab.com/-/ide/project/gitlab-org/gitlab/edit/master/-/doc/user/markdown.md
+
+
+markdown软件
+typora  https://www.typora.io/
+Dillinger https://dillinger.io/
+https://blog.csdn.net/davidhzq/article/details/100815332
+
+</code></pre>
+<pre><code>将markdown文件导出为带图片的PDF 
+Ⅰ.使用Typora 打开 markdown文件
+Ⅱ.点击 文件-导出-HTML
+Ⅲ.浏览器打开文件-打印-另存为PDF
+
+
+markdown转PDF文件分页
+&lt;div STYLE=&quot;page-break-after: always;&quot;&gt;&lt;/div&gt;
+
+
+markdown空格符号
+&amp;ensp;
+&amp;emsp;
+
+</code></pre>
+<pre><code>gitlab、github、gitee布署mkdocs主题仓库
+https://gitlab.com/xuyq123/mynotes/-/blob/master/gitlab%E3%80%81github%E3%80%81gitee%E5%B8%83%E7%BD%B2mkdocs%E4%B8%BB%E9%A2%98%E4%BB%93%E5%BA%93.md
+
+gitlab mkdocs主题仓库   
+    https://gitlab.com/xuyq123/plain-mkdocs   
+    https://xuyq123.gitlab.io/plain-mkdocs 
+
+    https://gitlab.com/xuyq123/myblog-mkdocs   
+    https://xuyq123.gitlab.io/myblog-mkdocs 
+
+--- 
+
+git平台docsify布署markdown文件
+https://gitlab.com/xuyq123/mynotes/-/blob/master/git%E5%B9%B3%E5%8F%B0docsify%E5%B8%83%E7%BD%B2markdown%E6%96%87%E4%BB%B6.md 
+
+gitlab docsify主题仓库  
+    https://gitlab.com/xuyq123/plain-docsify 
+    https://xuyq123.gitlab.io/plain-docsify/
+
+    https://gitlab.com/xuyq123/myblog-mkdocs
+    https://xuyq123.gitlab.io/myblog-docsify/   
+
+</code></pre>
+<h3 id="12">1.2、网络&amp;笔记本</h3>
+<h4 id="121">1.2.1、远程登录</h4>
 <pre><code>远程登录
 win+R   输入 mstsc
 Administrator/123456
@@ -213,7 +288,7 @@ Administrator/123456
 本地资源 - 本地设备和资源 - 详细信息 - 驱动器
 
 </code></pre>
-<h5 id="132">1.3.2、红米笔记本问题</h5>
+<h4 id="122">1.2.2、红米笔记本问题</h4>
 <pre><code>
 红米笔记本触摸板失灵
 - 按F12 
@@ -223,11 +298,11 @@ redmibook的FN键没有作用,F1～F12功能键直接按就是调节音.
 - Fn+ESC锁定
 
 </code></pre>
-<h5 id="133">1.3.3、无线网连不上 &amp; 代理连接失败</h5>
-<pre><code class="language-java">
+<h4 id="123">1.2.3、无线网连不上 &amp; 代理连接失败</h4>
+<pre><code>
 win7无线网络连接不上（未连接-连接可用）常用解决方法。
   开始 --控制面板（查看方式-小图标）--管理工具 --服务
-WLAN AutoConfig 启动此服务且启动类型改为自动
+  WLAN AutoConfig 启动此服务且启动类型改为自动
 
 </code></pre>
 <pre><code>代理连接失败 （-130 ERR_PROXY_CONNECTION_FAILED ）
@@ -236,25 +311,35 @@ WLAN AutoConfig 启动此服务且启动类型改为自动
 控制面板 - 网络和Internet - Internet选项 - 连接 - 局域网设置 - 代理服务器 - 为LAN使用代理服务器[这些设置不用于拨号或VPN连接][X]
 去掉勾选-确定
 
+---
+
 治根方法：
 参考 https://www.zhihu.com/question/25686082?sort=created
 
+方法1：
 网上能找到的方法都试过了，没解决。
 最后忘了从哪找到的方法，把WinHttpAutoProxySvc 服务给禁用了，似乎是好了，几个小时了没有再出现问题。
 忘了说了，我是用完fiddler之后出现的问题。
 
 禁用需要编辑注册表：
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySvc
-右边Start值改为4（禁止启动）
-然后重启电脑
+右边Start值改为4（禁止启动）。
+然后重启电脑。
 
+
+方法2：
+进到这个目录下：HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Internet Settings/Connections
+通过目录找到Connections，把整个文件夹删除。
+不放心的话可以把Connections改名。
+
+---
 
 进入服务：   控制面板 - 系统和安全 - 管理工具 - 服务
 进入注册表： WIN+R - regedit
 
 </code></pre>
-<h4 id="14">1.4、其他</h4>
-<h5 id="141">1.4.1、身高体重比例</h5>
+<h3 id="13">1.3、其他</h3>
+<h4 id="131">1.3.1、身高体重比例</h4>
 <pre><code>
 标准体重是反映和衡量一个人健康状况的重要标志之一。过胖和过瘦都不利于健康，也不会给人以健美感。不同体型的大量统计材料表明，反映正常体重较理想和简单的指标，可用身高体重的关系来表示。
 
@@ -294,31 +379,27 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySv
 
 
 </code></pre>
-<h5 id="142">1.4.2、眼睛心理学</h5>
+<h4 id="132">1.3.2、眼睛心理学</h4>
+<p><code>如果对方眼球处于右上方，表示正在创建视觉想象，也就是在脑海中创建一些现实中没有的事物。</code></p>
 <pre><code>
 眼睛心理学
+眼睛往左看代表：回忆；往右看代表：动用情感来创造词汇。
 
-眼睛往左看代表：回忆 ；往右看代表：动用情感来创造词汇。
-
-关于眼睛的心理bai学：
+关于眼睛的心理学：
 
 1. 如果对方眼球处于左上方，表示正在进行视觉回想，也就是回忆。
-
 2. 如果对方眼球处于左下方，表示正在思考，正在与自己对话。
 
 3. 如果对方眼球处于右上方，表示正在创建视觉想象，也就是在脑海中创建一些现实中没有的事物。
-
 4. 如果对方眼球处于右下方，表示ta正在感受自己的身体，感受情感的触动。
 
 5. 如果对方眼球向一侧看，同时脑袋微微向一侧倾斜，对方看上去像是在认真聆听，这个举动与声音有关，可能是在交谈中回忆起了某个声音，这时眼球也会处于中间位置。
-
 6. 如果对方眼球向左右平视，表示ta正在试图弄懂别人的意思。
-
-7. 如果对方眼球迅速地左右运动，表示ta正在忙碌地思考，也有可能是感受到了压力或者心怀戒备
+7. 如果对方眼球迅速地左右运动，表示ta正在忙碌地思考，也有可能是感受到了压力或者心怀戒备。
 
 </code></pre>
-<h5 id="143">1.4.3、视频会员兑换渠道</h5>
-<pre><code class="language-java">
+<h4 id="133">1.3.3、视频会员兑换渠道</h4>
+<pre><code>
 视频会员：腾讯视频、优酷、爱奇艺、芒果TV等视频网站会员积分兑换
 
 微信支付-支付有优惠-兑换好礼
@@ -333,17 +414,19 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinHttpAutoProxySv
 </code></pre>
 <h2 id="work"></h2>
 
-<p>### 2、工作</p>
+<h2 id="2">2、工作</h2>
 <hr />
-<h4 id="21api">2.1、高德天气api</h4>
+<h3 id="21api">2.1、高德天气api</h3>
 <ul>
 <li>高德天气 &ensp; <a href="https://lbs.amap.com/api/webservice/guide/api/weatherinfo">api</a> &ensp;  </li>
 <li>杭州天气 &ensp; <a href="https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&amp;city=330100">实时</a> &ensp; <a href="https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&amp;city=330100&amp;extensions=all">预报</a> &ensp;  </li>
 <li>安徽无为天气 &ensp; <a href="https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&amp;city=340281">实时</a> &ensp; <a href="https://restapi.amap.com/v3/weather/weatherInfo?key=0481b33d14e9830d8903940cdab327e5&amp;city=340281&amp;extensions=all">预报</a> &ensp;  </li>
 </ul>
 <hr />
-<h4 id="22mysql-logbin">2.2、mysql logbin日志</h4>
-<pre><code class="language-mysql">一 、logbin日志 记录新增、更新、删除的sql 
+<h3 id="22mysql-logbin">2.2、mysql logbin日志</h3>
+<pre><code class="language-sql">mysql开启log-bin日志.md  https://gitlab.com/xuyq123/mynotes/-/blob/master/mysql%E5%BC%80%E5%90%AFlog-bin%E6%97%A5%E5%BF%97.md
+
+一 、logbin日志 记录新增、更新、删除的sql 
 show binary logs;
 show master status;
 show binlog events in 'mysql-bin.000090' from 242985028 limit 0,1000
@@ -356,7 +439,7 @@ TRUNCATE table mysql.general_log
 
 </code></pre>
 <hr />
-<h4 id="23">2.3、端点已使用</h4>
+<h3 id="23">2.3、端点已使用</h3>
 <pre><code class="language-sql">C:\Users\Administrator&gt;netstat -ano|findstr &quot;8080&quot;
   TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       11492
   TCP    [::]:8080              [::]:0                 LISTENING       11492
@@ -369,7 +452,7 @@ C:\Users\Administrator&gt;taskkill /f /t /im 11492
 
 </code></pre>
 <hr />
-<h4 id="24druid">2.4、druid 安全配置</h4>
+<h3 id="24druid">2.4、druid 安全配置</h3>
 <pre><code class="language-vb">
 为Druid增加权限验证措施，建议参考 https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_StatViewServlet%E9%85%8D%E7%BD%AE
 https://blog.csdn.net/my_ha_ha/article/details/86212492
@@ -399,7 +482,7 @@ http://localhost:8080/druid/sql.html
 
 </code></pre>
 <hr />
-<h4 id="25github">2.5、github登录不上解决办法</h4>
+<h3 id="25github">2.5、github登录不上解决办法</h3>
 <pre><code>参考 https://blog.csdn.net/ych9527/article/details/114372201
 
 1、查询github域名
@@ -413,29 +496,81 @@ http://localhost:8080/druid/sql.html
 <hr />
 <h2 id="java"></h2>
 
-<h3 id="3java">3、java</h3>
-<h4 id="31java">3.1、java常用集合方法</h4>
-<pre><code class="language-java">lambda表达式
+<h2 id="3java">3、java</h2>
+<h3 id="31java">3.1、java常用方法</h3>
+<pre><code>
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ComboboxVO {}
+
+
+MessageResult result = JSON.parseObject(text, new TypeReference&lt;MessageResult&gt;() {});
+List&lt;DiffRegionLogisticsDetailVO&gt; cateList = JSON.parseObject(text, new TypeReference&lt;List&lt;DiffRegionLogisticsDetailVO&gt;&gt;() {});
+
+
+# 格式化全局时间
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+spring.jackson.time-zone=GMT+8
+
+
+@JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;, timezone = &quot;GMT+8&quot;)
+private Date createTime;
+
+
+Assert.isTrue(!StringUtils.isEmpty(param.getPhone()), &quot;联系方式不能为空&quot;);
+
+</code></pre>
+<h4 id="311lambda">3.1.1、lambda表达式</h4>
+<pre><code class="language-java">
+/*** lambda表达式 */
+
+// 循环
+AtomicInteger total = new AtomicInteger(0);
+productLogisticsDAOS.stream().forEach(dao -&gt; {
+    int temp = dao.getAmount() * dao.getCount();
+    total.addAndGet(temp);
+});
 
 List&lt;Integer&gt; interceptProductIdList = interceptGoodsNumDAOS.stream().map(dao -&gt; dao.getProductId()).distinct().collect(Collectors.toList());
 
 List&lt;DeliveryPackageDO&gt; mainPackageDOList = packageDOS.stream().filter(dao -&gt; dao.getTitle().equals(DriverPackageUtil.MAIN_PACKAGE_TEXT)).collect(Collectors.toList());
 
-detailDAOS.stream().mapToInt(DeliveryPackageGoodsDetailDAO::getNum).sum()
 
-purchaserAmountMap.values().stream().map(SupplierBillDetailVO::getAmount).reduce(BigDecimal::add).get();
+// 求和
+Integer sum = detailDAOS.stream().mapToInt(DeliveryPackageGoodsDetailDAO::getNum).sum()
+BigDecimal paymentAmount = purchaserAmountMap.values().stream().map(SupplierBillDetailVO::getAmount).reduce(BigDecimal::add).get();
 
+
+/*** list转map */
+
+// list转map-排序
 LinkedHashMap&lt;String, List&lt;DeliveryOrderShopDAO&gt;&gt; addrMap = deliveryOrderShopDAOS.stream().collect(Collectors.groupingBy(DeliveryOrderShopDAO::getAddr_hash, LinkedHashMap::new, Collectors.toList()));
 
+// list转map-多字段分组
 Map&lt;String, List&lt;DeliveryGoodsDO&gt;&gt; deliveryGoodsMap = deliveryGoodsDOS.stream().collect(Collectors.groupingBy(item -&gt; item.getVirtualgoodsId() + &quot;_&quot; + item.getTitle() + &quot;_&quot; + item.getSpec()));
 
+// list转map-值为单个对象
+Map&lt;String, DeliveryDO&gt; deliveryOrderMap = deliveryDOS.stream().collect(Collectors.toMap(DeliveryDO::getDeliveryOrder, a -&gt; a));
+
+// list转map-值为单个对象 （如有重复，用第一个）
+Map&lt;String, DeliveryDO&gt; deliveryOrderMap = deliveryDOS.stream().collect(Collectors.toMap(DeliveryDO::getDeliveryOrder, a-&gt; a,(k1,k2)-&gt;k2));
+
+
+// list转map-值为对象的字段
  Map&lt;Integer, Integer&gt; goods2ProductParam = logisticsGoodsDAOS.stream().filter(dao -&gt; goodsIdParamList.contains(dao.getGoodsId())).
                     collect(Collectors.toMap(LogisticsGoodsDAO::getGoodsId, LogisticsGoodsDAO::getProductId, (key1, key2) -&gt; key2));
 
-Map&lt;String, DeliveryDO&gt; deliveryOrderMap = deliveryDOS.stream().collect(Collectors.toMap(DeliveryDO::getDeliveryOrder, (p) -&gt; p));
+
+
+Optional.ofNullable(type).orElse(0).intValue();
+
+public static final int cpuNum = Runtime.getRuntime().availableProcessors();
+
 
 </code></pre>
-<pre><code>
+<h4 id="312map">3.1.2、Map遍历</h4>
+<pre><code class="language-java">
 java中Map遍历的四种方式
 https://www.cnblogs.com/damoblog/p/9124937.html
 
@@ -476,11 +611,190 @@ for(String key : map.keySet()){
 }
 
 
+</code></pre>
+<h4 id="313java">3.1.3、java排序</h4>
+<pre><code class="language-java">java排序
+
+public static void main(String[] args) {
+        // 1、数组排序
+        int[] arr = {2, 3, 4, 5, 2, 1};
+        Arrays.sort(arr);
+        System.out.println(JSON.toJSON(arr));
+
+        // 2、列表排序
+        List&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
+        list.add(5);
+        list.add(9);
+        list.add(3);
+        list.add(1);
+        Collections.sort(list);
+        System.out.println(JSON.toJSON(list));
+
+        Random random = new Random();
+        List&lt;BuffProductNumDAO&gt; numDAOList = new ArrayList&lt;&gt;();
+        for (int i = 0; i &lt; 10; i++) {
+            BuffProductNumDAO buffProductNumDAO = new BuffProductNumDAO();
+            buffProductNumDAO.setProductId(random.nextInt(10));
+            numDAOList.add(buffProductNumDAO);
+        }
+        System.out.format(&quot;Comparator before list=%s&quot;, JSON.toJSON(numDAOList));
+
+        // 3、Comparator排序
+        Collections.sort(numDAOList, new Comparator&lt;BuffProductNumDAO&gt;() {
+            @Override
+            public int compare(BuffProductNumDAO p1, BuffProductNumDAO p2) {
+                // 调用compare方法大于0，就把前一个数和后一个数交换，也就是把大的数放后面了，
+                // 即所谓的升序了。如果第二个参数与第一个参数调换顺序，也就是降序了。
+                int product = p2.getProductId() - p1.getProductId();
+                return product;
+            }
+        });
+        System.out.println();
+        System.out.format(&quot;Comparator after list=%s&quot;, JSON.toJSON(numDAOList));
+
+        Collections.sort(logisticsDAOList, Comparator.comparing(WarehouseLogisticsDAO::getSort).thenComparing(WarehouseLogisticsDAO::getDistance));
+
+
+        // 4、Comparable排序
+        List&lt;Goods&gt; goodsList = new ArrayList&lt;&gt;();
+        Collections.sort(goodsList);
+
+    }
+
+
+    @Data
+    @AllArgsConstructor
+    @NoArgsConstructor
+    public class Goods implements Comparable&lt;Goods&gt; { //实现Comparable接口，利用泛型限定比较的类型
+        private Integer productId; //商品编号
+        private String name; //商品名称
+        private double price; //商品价格
+
+        @Override
+        public int compareTo(Goods o) {  //重写compareTo方法。
+            //取出商品价格
+            double price1 = this.getPrice();
+            double price2 = o.getPrice();
+            int n = new Double(price2 - price1).intValue();  //double类型的差值转为int
+            return n;
+        }
+    }
+
+
+</code></pre>
+<pre><code class="language-sql">Java8排序stream.sorted() 
+https://blog.csdn.net/qq_34996727/article/details/94472999
+
+System.out.println(&quot;---Natural Sorting by Name---&quot;);
+List&lt;Student&gt; slist = list.stream().sorted().collect(Collectors.toList());
+slist.forEach(e -&gt; System.out.println(&quot;Id:&quot; + e.getId() + &quot;, Name: &quot; + e.getName() + &quot;, Age:&quot; + e.getAge()));
+
+System.out.println(&quot;---Natural Sorting by Name in reverse order---&quot;);
+slist = list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+slist.forEach(e -&gt; System.out.println(&quot;Id:&quot; + e.getId() + &quot;, Name: &quot; + e.getName() + &quot;, Age:&quot; + e.getAge()));
+
+System.out.println(&quot;---Sorting using Comparator by Age---&quot;);
+slist = list.stream().sorted(Comparator.comparing(Student::getAge)).collect(Collectors.toList());
+slist.forEach(e -&gt; System.out.println(&quot;Id:&quot; + e.getId() + &quot;, Name: &quot; + e.getName() + &quot;, Age:&quot; + e.getAge()));
+
+System.out.println(&quot;---Sorting using Comparator by Age with reverse order---&quot;);
+slist = list.stream().sorted(Comparator.comparing(Student::getAge).reversed()).collect(Collectors.toList());
+slist.forEach(e -&gt; System.out.println(&quot;Id:&quot; + e.getId() + &quot;, Name: &quot; + e.getName() + &quot;, Age:&quot; + e.getAge()));
+
+
+</code></pre>
+<h4 id="314flatmappeeknewarraylist">3.1.4、flatmap,peek,newArrayList</h4>
+<pre><code class="language-java">JAVA8 中的flatmap
+
+使用flatMap方法的效果是，各个数组并不是分别映射一个流，而是映射成流的内容，所有使用map(Array::stream)时生成的单个流被合并起来，即扁平化为一个流。
+https://blog.csdn.net/liyantianmin/article/details/96178586
+https://blog.csdn.net/zhuwukai/article/details/82888316
+https://www.jianshu.com/p/ecb8e8f77a89
+
+ public static void main(String[] args) {
+    List&lt;User&gt; uList = Lists.newArrayList();
+    User u1 = new User();
+    u1.setAddr(&quot;a1;a2;a3;a4;a5&quot;);
+
+    User u2 = new User();
+    u2.setAddr(&quot;b1;b2;b3;b4;b5&quot;);
+
+    uList.add(u1);
+    uList.add(u2);
+
+    List&lt;String&gt; addrList = uList.stream().map(x -&gt; x.getAddr()).flatMap(x-&gt; Arrays.stream(x.split(&quot;;&quot;))).collect(Collectors.toList());
+    //或者
+    List&lt;String&gt; ridStrList = uList.stream().map(x -&gt; x.getAddr()).map(x -&gt; x.split(&quot;;&quot;)).flatMap(Arrays::stream).collect(Collectors.toList());
+    System.out.println(addrList);
+}
+
+@Data
+@NoArgsConstructor
+public class User{
+    private   String addr;
+}
+
+
+---
+
+
+public static class User {
+        private String name;
+        private List&lt;String&gt; relativeUsers;
+}
+
+List&lt;String&gt; strings = users.stream()
+  .flatMap(user -&gt; user.getRelativeUsers().stream())
+  .collect(Collectors.toList());
+
+</code></pre>
+<pre><code>Java 8 Stream peek 与 map的区别
+原文链接：https://blog.csdn.net/tckt75433/article/details/81510743
+总结：peek接收一个没有返回值的λ表达式，可以做一些输出，外部处理等。map接收一个有返回值的λ表达式，之后Stream的泛型类型将转换为map参数λ表达式返回的类型。
+
+</code></pre>
+<pre><code class="language-java">// 创建数组的四种方法
+int[] a1;
+int[] a2 = {1, 2, 3};
+int[] a3 = new int[]{1, 2, 3};
+
+int[] a4 = new int[3];
+a4[0] = 1;
+a4[2] = 2;
+a4[3] = 3;
+
+</code></pre>
+<pre><code class="language-java">几个快速添加list的方法
+1. 使用Collections.addAll()方法，前提还是需要手动 new ArrayList
+ArrayList&lt;String&gt; s = new ArrayList();
+Collections.addAll(s,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;)
+
+2. 使用Arrays.asList(...args) 直接返回一个List
+List&lt;String&gt; s = Arrays.asList(&quot;1&quot;,&quot;2&quot;,&quot;3&quot;)
+// 可能会抛异常 UnsupportOperationException
+
+3. 如果引入了Guava的工具包，可以使用他的Lists.newArrayList(...args)方法
+List&lt;String&gt; list = Lists.newArrayList(&quot;1&quot;,&quot;2&quot;,&quot;3&quot;)
+
+4. 如果是Java9，可以使用自带的List类
+List&lt;String&gt; s = List.of(&quot;1&quot;,&quot;2&quot;,&quot;3&quot;)
+
+</code></pre>
+<pre><code>使用Arrays.asList()报错 UnsupportOperationException 原因
+
+常常使用Arrays.asLisvt()后调用add，remove这些method时出现java.lang.UnsupportedOperationException异常。这是由于：
+Arrays.asLisvt() 返回java.util.Arrays$ArrayList， 而不是ArrayList。
+
+Arrays$ArrayList和ArrayList都是继承AbstractList，remove，add等 method在AbstractList中是默认throw UnsupportedOperationException而且不作任何操作。
+ArrayList override这些method来对list进行操作，但是Arrays$ArrayList没有override remove(int)，add(int)等，所以throw UnsupportedOperationException。
+
+解决方法：
+List&lt;String&gt; list=new ArrayList(Arrays.asList(nameList));
 
 </code></pre>
 <hr />
-<h4 id="32idea">3.2、idea基本配置与快捷键</h4>
-<h5 id="321idea">3.2.1、idea基本配置</h5>
+<h3 id="32idea">3.2、idea基本配置与快捷键</h3>
+<h4 id="321idea">3.2.1、idea配置与插件</h4>
 <pre><code class="language-java">idea基本配置  File -- Settings
 
 1、修改快捷键
@@ -509,56 +823,58 @@ file and code Templates -- Includes -- File Header
 Settings→Editor→General→Auto Import
 选中Optimize imports on the fly和Add unambiguous imports on the fly
 
-7、idea 常用插件 Plugins
+
+7、代码自动定位文件
+Project - Show Options Menu - Autoscroll From Source
+
+8、显示成员变量及方法
+Project - Show Options Menu - Show Members
+
+9、初始化idea（删除所有配置及历史记录）
+删除目录 C:\Users\Administrator\.IdeaIC2019.1
+
+</code></pre>
+<pre><code>idea常用插件 Plugins
 lombok
 Free Mybatis plugin    MybatisX
 Spring Assistant 
+Translation
 
 Alibaba Java Coding Guidelines
 Markdown
 swagger
-
-
-8、代码自动定位文件
-Project - Show Options Menu - Autoscroll From Source
-
-9、显示成员变量及方法
-Project - Show Options Menu - Show Members
-
-
-10、初始化idea（删除所有配置及历史记录）
-删除目录 C:\Users\Administrator\.IdeaIC2019.1
-
 </code></pre>
-<h5 id="322idea">3.2.2、idea常用快捷键</h5>
+<h4 id="322idea">3.2.2、idea常用快捷键</h4>
 <pre><code>eclipse &amp; idea常用快捷键
 
 sout            打印
+fori            循环
 Shift+Enter     另起一行
+Alt+Enter       快速命名
 Ctrl+h          全局关键词搜索
 Ctrl+f          当前文件查找、替换
 Ctrl+shift+r    全局文件查找
 Ctrl+shift+f    整理代码格式
 Ctrl+shift+x    大小写
 Ctrl+shift+o    整理导入包
-alt+insert      快速生成get和set方法、构造方法
-alt+shift+r     批量重命名
-alt+shift+m     提取本地变量及方法
+Alt+insert      快速生成get和set方法、构造方法
+Alt+shift+r     批量重命名
+Alt+shift+m     提取本地变量及方法
 
 ---
 
-Ctrl+Alt+↑        往上或下复制当前内容
-Alt+↓             将当前行的内容往上或下移动
-Alt+/             导入一个包
-Ctrl+m            编辑器窗口最大化
-ctrl+o            快速outline，查找方法
-ctrl+e            快速转换编辑器
-syso+Alt+/        输出
+Ctrl+Alt+↑      往上或下复制当前内容
+Alt+↓           将当前行的内容往上或下移动
+Alt+/           导入一个包
+Ctrl+m          编辑器窗口最大化
+Ctrl+o          快速outline，查找方法
+Ctrl+e          快速转换编辑器
+syso+Alt+/      输出
 
 </code></pre>
 <hr />
-<h4 id="33java">3.3、java软件</h4>
-<h5 id="331java">3.3.1、java软件</h5>
+<h3 id="33java">3.3、java软件</h3>
+<h4 id="331java">3.3.1、java软件</h4>
 <table>
 <thead>
 <tr>
@@ -568,24 +884,16 @@ syso+Alt+/        输出
 </thead>
 <tbody>
 <tr>
-<td>tomcat</td>
-<td><a href="https://archive.apache.org/dist/tomcat/">tomcat官网</a> &ensp; (<a href="https://pan.baidu.com/s/1yPhAfIcACTGkpIOYlEds1g">云盘</a>  密码: j9ug )</td>
-</tr>
-<tr>
-<td>eclipse</td>
-<td><a href="http://www.eclipse.org/downloads/packages">eclipse官方下载</a>    <a href="./eclipse.md">版本说明</a></td>
-</tr>
-<tr>
-<td>maven</td>
-<td><a href="https://archive.apache.org/dist/maven/maven-3/">maven官方下载</a></td>
-</tr>
-<tr>
 <td>idea</td>
 <td><a href="https://www.jetbrains.com/idea/download/other.html">idea官方下载</a> &ensp; <a href="https://www.aliyundrive.com/s/oWgxBBNqGj9">idea2019</a></td>
 </tr>
 <tr>
 <td>jdk</td>
 <td><a href="./jdk.md">Java Development Kit</a></td>
+</tr>
+<tr>
+<td>maven</td>
+<td><a href="https://archive.apache.org/dist/maven/maven-3/">maven官方下载</a></td>
 </tr>
 <tr>
 <td>mysql</td>
@@ -595,29 +903,37 @@ syso+Alt+/        输出
 <td>javaSoft</td>
 <td><a href="https://www.aliyundrive.com/s/fWXemUwcsUs">java软件</a>  redis/mongo/Navicat/kafka/zookeeper/git/Xshell...</td>
 </tr>
+<tr>
+<td>tomcat</td>
+<td><a href="https://archive.apache.org/dist/tomcat/">tomcat官网</a> &ensp; (<a href="https://pan.baidu.com/s/1yPhAfIcACTGkpIOYlEds1g">云盘</a>  密码: j9ug )</td>
+</tr>
+<tr>
+<td>eclipse</td>
+<td><a href="http://www.eclipse.org/downloads/packages">eclipse官方下载</a>    <a href="./eclipse.md">版本说明</a></td>
+</tr>
 </tbody>
 </table>
-<h5 id="332java">3.3.2、java环境变量配置</h5>
+<h4 id="332java-maven">3.3.2、java maven环境变量</h4>
 <pre><code class="language-java">java环境变量配置    注意：环境变量中都是英文符号，结尾以英文分号;结束
-创建  JAVA_HOME       C:\Program Files\Java\jdk1.8.0_162
-添加  Path            %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
-创建  CLASSPATH       .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;
+创建  JAVA_HOME     C:\Program Files\Java\jdk1.8.0_162
+添加  Path          %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+创建  CLASSPATH     .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;
 
 验证 java -version
 
 ---
 
 maven环境变量配置
-创建  MAVEN_HOME  D:\ProgramFiles\apache-maven-3.6.0
-添加  Path            %MAVEN_HOME%\bin;
+创建  MAVEN_HOME    D:\ProgramFiles\apache-maven-3.6.0
+添加  Path          %MAVEN_HOME%\bin;
 
 验证 mvn -version
 
 ---
 
 tomcat环境变量配置
-创建  TOMCAT_HOME E:\ProgramFiles\apache-tomcat-8.5.31
-添加  CLASSPATH       %TOMCAT_HOME%\BIN;
+创建  TOMCAT_HOME   E:\ProgramFiles\apache-tomcat-8.5.31
+添加  CLASSPATH     %TOMCAT_HOME%\BIN;
 
 验证 
 启动 bin/startup.bat 
@@ -625,7 +941,28 @@ tomcat环境变量配置
 
 </code></pre>
 <hr />
-<h4 id="34springboot">3.4、springboot项目打包布署</h4>
+<h4 id="333postman">3.3.3、postman配置</h4>
+<pre><code>
+postman环境变量配置
+--manage environments
+https://blog.csdn.net/mt122/article/details/104530439
+https://www.jianshu.com/p/391e995881c0
+
+--Tests
+var jsonData = JSON.parse(responseBody);
+postman.setGlobalVariable(&quot;webToken&quot;, jsonData.data.token);
+
+
+
+postman 出现Error: connect ECONNREFUSED 127.0.0.1:端口
+https://blog.csdn.net/weixin_45993202/article/details/109072188
+
+Settings--Proxy
+去掉勾选 Use the system proxy
+
+</code></pre>
+<hr />
+<h3 id="34springboot">3.4、springboot项目打包布署</h3>
 <pre><code>springboot项目打包布署
 https://gitlab.com/xuyq123/calligraphy-boot
 
@@ -659,10 +996,10 @@ maven常用打包命令
 
 </code></pre>
 <hr />
-<h2 id="git"></h2>
+<h2 id="gitId"></h2>
 
-<h3 id="4git">4、git仓库项目</h3>
-<h4 id="41">4.1、书法练习轨迹</h4>
+<h2 id="4git">4、git仓库</h2>
+<h3 id="41">4.1、书法练习轨迹</h3>
 <blockquote>
 <p>若无意外，一般每周一在gitlab《<strong>书法练习轨迹--明月几时有</strong>》记录上周练习情况。其他渠道，不定时同步。</p>
 </blockquote>
@@ -731,52 +1068,57 @@ maven常用打包命令
 <td>办公平台。字节跳动产品。</td>
 </tr>
 <tr>
+<td>11</td>
+<td><a href="https://www.wolai.com/rDqeCwfv87RLPPmuu2fvyi">我来</a> &ensp; <a href="https://www.wolai.com/npaRuQ7wj44TYHqup5xg2w">ReadMe</a></td>
+<td>不仅仅是未来的云端协作平台与个人笔记。</td>
+</tr>
+<tr>
 <td>-</td>
 <td><strong>云盘</strong></td>
 <td></td>
 </tr>
 <tr>
-<td>11</td>
+<td>12</td>
 <td><a href="https://www.jianguoyun.com/p/DTnLeQEQxP-NBhjNrfED">坚果云</a> &ensp; <a href="https://www.jianguoyun.com/p/DfYHsfUQxP-NBhjOrfED">markdown</a></td>
 <td>文件分享。</td>
 </tr>
 <tr>
-<td>12</td>
+<td>13</td>
 <td><a href="https://pan.baidu.com/s/1dOJMgeZAyCYolEflsKIOPQ">百度网盘</a></td>
 <td>提取码: zpxu 。pdf文件分享，需要登录。</td>
 </tr>
 <tr>
-<td>13</td>
+<td>14</td>
 <td><a href="https://www.aliyundrive.com/s/dKE1SMhqdwn">阿里云盘</a></td>
 <td>pdf文件分享，需要登录。</td>
 </tr>
 <tr>
-<td>14</td>
+<td>15</td>
 <td><a href="https://cloud.189.cn/t/RRBbumb2MB7b">天翼云</a></td>
 <td>pdf文件分享，需要登录。中国电信网盘。</td>
 </tr>
 <tr>
-<td>15</td>
+<td>16</td>
 <td><a href="https://caiyun.139.com/m/i?125CmrCy7hU1y">和彩云</a></td>
 <td>提取码:WAmq 。pdf文件分享，需要登录。中国移动网盘。</td>
 </tr>
 <tr>
-<td>16</td>
+<td>17</td>
 <td><a href="https://www.kdocs.cn/l/cpUDGjX6765H">wps云盘</a></td>
 <td>pdf文件分享，需要登录。</td>
 </tr>
 <tr>
-<td>17</td>
+<td>18</td>
 <td><a href="https://share.weiyun.com/JKZ4ANJ5">微云</a>  &ensp; <a href="https://docs.qq.com/pdf/DVmxKTG5YZHZBUGlx">腾讯文档</a></td>
 <td>pdf文件分享。</td>
 </tr>
 <tr>
-<td>18</td>
+<td>19</td>
 <td><a href="http://note.youdao.com/s/V7b1jHjB">有道云</a></td>
 <td>笔记分享，无删减。</td>
 </tr>
 <tr>
-<td>19</td>
+<td>20</td>
 <td><a href="https://drive.google.com/file/d/1Ubx-Rz3Xwhn48PEXMx-BmWrJGyIAzNfn/view?usp=sharing">google云盘</a></td>
 <td>文件分享，无删减。</td>
 </tr>
@@ -786,33 +1128,32 @@ maven常用打包命令
 <td></td>
 </tr>
 <tr>
-<td>20</td>
+<td>21</td>
 <td><a href="https://www.zybuluo.com/scott180/note/1793757">作业部落</a> &ensp; <a href="https://www.zybuluo.com/scott180/note/892814">ReadMe</a></td>
 <td>markdown编辑器，文件分享。</td>
 </tr>
 <tr>
-<td>21</td>
-<td><a href="http://xy180.gitee.io/imgs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html">gitee_pages</a> &ensp; <a href="http://xy180.gitee.io/imgs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html">ReadMe</a></td>
+<td>22</td>
+<td><a href="http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html">gitee_pages</a> &ensp; <a href="http://xy180.gitee.io/plain-mkdocs/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html">ReadMe</a></td>
 <td>gitee静态网页，markdown转html。</td>
 </tr>
 <tr>
-<td>22</td>
+<td>23</td>
 <td><a href="https://scott180.github.io/calligraphy/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89">github_pages</a> &ensp; <a href="https://scott180.github.io/calligraphy">ReadMe</a></td>
 <td>github静态网页，有时打不开。<a href="https://scott180.github.io/calligraphy1/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89">主题1</a> &ensp; <a href="https://scott180.github.io/calligraphy2/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89">主题2</a></td>
 </tr>
 <tr>
-<td>23</td>
+<td>24</td>
 <td><a href="https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html"><strong>gitlab_pages</strong></a>  &ensp; <a href="https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe.html">ReadMe</a></td>
 <td>gitlab静态网页，markdown转html。</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h4 id="42">4.2、笔记&amp;项目</h4>
+<h3 id="42">4.2、笔记&amp;项目</h3>
 <pre><code>个人资料一般保存在git平台及网盘，如下：
 git平台：gitlab、github、gitee、csdn_code、coding、bitbucket
 网盘：阿里云网盘、百度网盘、阿里云个人邮箱网盘、坚果云、天翼云、微云、wps云盘
-笔记：有道云笔记、qq邮箱记事本、语雀、csdn、博客园、作业部落、腾讯文档
+笔记：csdn、博客园、作业部落、有道云笔记、qq邮箱记事本、语雀、腾讯文档、飞书、简书
 
 </code></pre>
 <blockquote>
@@ -851,6 +1192,40 @@ git平台：gitlab、github、gitee、csdn_code、coding、bitbucket
 <td>calligraphy</td>
 <td><a href="https://gitlab.com/xuyq123/calligraphy">gitlab</a> &ensp; <a href="https://gitee.com/xy180/calligraphy">gitee</a> &ensp; <a href="https://github.com/scott180/calligraphy">github</a> &ensp; <a href="https://xuyq123.gitlab.io/plain/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89.html">gitlab_pages</a> &ensp; <a href="https://xuyq123.gitlab.io/plain-mkdocs/">gitlab_mkdocs</a></td>
 <td>书法练习轨迹</td>
+</tr>
+<tr>
+<td>mkdocs</td>
+<td>gitlab <a href="https://gitlab.com/xuyq123/note-mkdocs">note-mkdocs</a>&ensp; <a href="https://xuyq123.gitlab.io/note-mkdocs/"><strong>网页</strong></a> &ensp;&ensp; <a href="https://gitlab.com/xuyq123/myblog-mkdocs">myblog-mkdocs</a>&ensp; <a href="https://xuyq123.gitlab.io/myblog-mkdocs/">网页</a> <br/>github <a href="https://github.com/scott180/note-mkdocs">note-mkdocs</a>&ensp; <a href="https://scott180.github.io/note-mkdocs/">网页</a> &ensp;&ensp;<a href="https://github.com/scott180/myblog-mkdocs">myblog-mkdocs</a>&ensp; <a href="https://scott180.github.io/myblog-mkdocs/">网页</a><br/>gitee <a href="https://gitee.com/xy180/plain-mkdocs/tree/master/note">plain-mkdocs</a> <a href="http://xy180.gitee.io/plain-mkdocs/note/site/">网页</a> &ensp;&ensp;<a href="https://gitee.com/xy180/myblog-mkdocs">myblog-mkdocs</a></td>
+<td>我的笔记与博客</td>
+</tr>
+<tr>
+<td>docsify</td>
+<td>gitlab <a href="https://gitlab.com/xuyq123/plain-docsify">plain-docsify</a>&ensp; <a href="https://xuyq123.gitlab.io/plain-docsify/"><strong>网页</strong></a> &ensp;&ensp; <a href="https://gitlab.com/xuyq123/myblog-docsify">myblog-docsify</a>&ensp; <a href="https://xuyq123.gitlab.io/myblog-docsify/">网页</a> <br/>github <a href="https://github.com/scott180/plain-docsify">plain-docsify</a>&ensp; <a href="https://scott180.github.io/plain-docsify/">网页</a> &ensp;&ensp;<a href="https://github.com/scott180/myblog-docsify">myblog-docsify</a>&ensp; <a href="https://scott180.github.io/myblog-docsify/">网页</a></td>
+<td>笔记与博客docsify</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<hr />
+<hr />
+<blockquote>
+<p>注册了微信公众号及今日头条号：<strong>无为徐生</strong>，以后会将书法练习轨迹、程序员笔记以及一些随笔感想更新在此。若有兴趣，可扫码关注。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>无为徐生</th>
+<th>微信公众号</th>
+<th>&ensp;</th>
+<th>今日头条号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>二维码</td>
+<td><img alt="w" src="https://codechina.csdn.net/xu180/document/-/raw/master/imgs/weixin/无为徐生.png" /></td>
+<td><br/></td>
+<td><img alt="t" src="https://codechina.csdn.net/xu180/document/-/raw/master/imgs/toutiao/无为徐生.png" /></td>
 </tr>
 </tbody>
 </table>
