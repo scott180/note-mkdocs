@@ -1,4 +1,5 @@
 site_name: 笔记mkdocs
+copyright: Copyright (c) 2021 无为徐生  书法练习轨迹
 
 theme:
   name: spacelab
@@ -10,7 +11,9 @@ nav:
     - 书法练习轨迹--明月几时有: 书法练习/书法练习轨迹--明月几时有.md
     - 笔名汉字频率分析: 书法练习/笔名汉字频率分析.md
     - 古文诗词: 书法练习/古文诗词.md
+    - 多宝塔碑: 书法练习/多宝塔碑.md
   - java资料:
     - java: java资料/java.md
     - gitNote: java资料/gitNote.md
     - linuxNote: java资料/linuxNote-x.md
+    
