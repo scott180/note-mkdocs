@@ -41,11 +41,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe/" class="dropdown-item">书法练习轨迹ReadMe</a>
+    <a href="../../%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89/" class="dropdown-item">书法练习轨迹--明月几时有</a>
 </li>
                                     
 <li>
-    <a href="../../%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9--%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89/" class="dropdown-item">书法练习轨迹--明月几时有</a>
+    <a href="../../%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0/%E4%B9%A6%E6%B3%95%E7%BB%83%E4%B9%A0%E8%BD%A8%E8%BF%B9ReadMe/" class="dropdown-item">书法练习轨迹ReadMe</a>
 </li>
                                     
 <li>
@@ -66,11 +66,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../java/" class="dropdown-item">java</a>
+    <a href="../gitNote/" class="dropdown-item">gitNote</a>
 </li>
                                     
 <li>
-    <a href="../gitNote/" class="dropdown-item">gitNote</a>
+    <a href="../javaNote/" class="dropdown-item">javaNote</a>
 </li>
                                     
 <li>
@@ -87,7 +87,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../gitNote/" class="nav-link">
+                                <a rel="prev" href="../javaNote/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
@@ -132,26 +132,15 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="linux-xyq">linux笔记-xyq</h1>
+<p><br /></p>
 <ul>
-<li>
-<p><a href="#command">1、命令</a></p>
-</li>
-<li>
-<p><a href="#endOther">2、其他</a></p>
-</li>
-<li>
-<p>[x]  2017.08.22--now
-<code>xyq</code> <code>linux</code> <code>note</code></p>
-</li>
+<li>[x]  2017.08.22--now
+<code>xyq</code> <code>linux</code> <code>note</code></li>
 </ul>
 <blockquote>
-<p><a href="https://gitlab.com/xuyq123/mynotes">gitlab</a> &ensp; <a href="https://gitee.com/xy180/MyNotes/blob/master/linuxNote-x.md">gitee</a> &ensp; <a href="https://www.zybuluo.com/mdeditor">作业部落</a> &ensp; <a href="https://me.csdn.net/xu180">CSDN</a> &ensp; <a href="https://maxiang.io">马克飞象</a> &ensp; <a href="https://typora.io/#windows">typora</a> </p>
+<p><a href="https://blog.xushufa.cn">blog</a> &ensp; <a href="https://gitlab.com/xuyq123/mynotes">gitlab</a> &ensp; <a href="https://gitee.com/xy180/MyNotes/blob/master/linuxNote-x.md">gitee</a> </p>
 </blockquote>
-<h2 id="command"></h2>
-
 <h2 id="1">1、命令说明</h2>
-<h3 id="commonCommand"></h3>
-
 <h3 id="11">1.1 常用命令</h3>
 <table>
 <thead>
@@ -453,12 +442,9 @@
 <td>立刻关机</td>
 <td>shutdown now</td>
 </tr>
-<tr>
-<td><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong></td>
-<td></td>
-</tr>
 </tbody>
 </table>
+<hr />
 <h3 id="commonIntroduce"></h3>
 
 <h3 id="12">1.2 命令说明</h3>
@@ -929,6 +915,82 @@ make uninstall
 
 </code></pre>
 <hr />
+<h4 id="138-nginx">1.3.8 nginx命令</h4>
+<pre><code>
+启动
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx
+或
+$ sudo systemctl start nginx #systemd
+OR
+$ sudo service nginx start   #sysvinit
+
+
+重载 Nginx 服务
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx -s reload
+$ sudo systemctl reload nginx #systemd
+或
+$ sudo service nginx reload   #sysvinit
+
+
+停止
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx -s stop
+$ sudo systemctl stop nginx #systemd
+OR
+$ sudo service nginx stop   #sysvinit
+
+
+开机自启动
+$ sudo systemctl enable nginx #systemd
+或
+$ sudo service nginx enable   #sysv init
+
+
+
+
+查询状态
+sudo /usr/local/lighthouse/softwares/nginx/sbin/nginx -t
+ps -ef | grep nginx
+
+$ sudo systemctl status nginx #systemd
+或
+$ sudo service nginx status   #sysvinit
+
+
+
+
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+killall -9 nginx
+
+</code></pre>
+<pre><code>docsify 使用nginx布署在私有服务器
+// 安装docsify
+npm i docsify-cli -g  
+
+docsify --version
+docsify serve
+
+注意问题：
+
+将第一行的user www-data;,不管你那里是什么，统一改为user root，否则后面会出现403 forbidden.
+
+
+server {
+    listen 8080;
+    server_name localhost;
+
+    location / {
+            root /home/lighthouse/shufaguiji/;
+            index index.html;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+}
+
+</code></pre>
+<hr />
 <h3 id="IP"></h3>
 
 <h3 id="14-ip">1.4  IP及防火墙</h3>
@@ -1196,8 +1258,6 @@ usermod -a -G groupA user
 
 </code></pre>
 <hr />
-<h2 id="endOther"></h2>
-
 <h2 id="2">2、其他</h2>
 <h4 id="21-javacpu">2.1 java进程高CPU占用故障排查</h4>
 <pre><code class="language-java">
@@ -1294,9 +1354,9 @@ source /etc/profile
 
 </code></pre>
 <h4 id="24">2.4 问题</h4>
-<pre><code class="language-basic">    history 历史记录显示时间        
-    在/etc/profile 中增加  export HISTTIMEFORMAT=&quot;%Y-%m-%d %H:%M:%S &quot;
-    写入环境变量         source /etc/profile
+<pre><code class="language-basic">history 历史记录显示时间        
+在/etc/profile 中增加  export HISTTIMEFORMAT=&quot;%Y-%m-%d %H:%M:%S &quot;
+写入环境变量         source /etc/profile
 </code></pre>
 <pre><code class="language-c">centos7虚拟机不能上网    
     在存储linux目录的CentOS.vmx文件加入  ethernet0.virtualDev = &quot;e1000&quot;  再重启虚拟机
@@ -1310,6 +1370,19 @@ linux虚拟机上传下载文件
 
   1、可能是防火墙打开了
   2、/etc/hosts  策略配置错了
+</code></pre>
+<pre><code>中文乱码问题
+[root]# vi /etc/profile
+[root]# source /etc/profile
+[root]# echo $LANG
+
+# export LC_ALL=&quot;zh_CN.GBK&quot;
+# export LANG=&quot;zh_CN.GBK&quot;
+
+LANG=zh_CN.UTF-8
+LC_ALL=en_US.UTF-8
+
+
 </code></pre>
 <h4 id="25">2.5 星期月份英语</h4>
 <pre><code class="language-vb">==============================================================
